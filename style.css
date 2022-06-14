@@ -10,522 +10,270 @@ body{
   min-height: 100vh;
 }
 
-.cuadrado1{
+.tablero span{
   width: 40px;
   height: 40px;
   background: white;
   border: 3px black solid;
   position: absolute;
+}
+
+.tablero span:first-child{
   top: 576px;
   left: 300px;
 }
 
-.cuadrado2{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(2){
   top: 538px;
   left: 300px;
 }
 
-.cuadrado3{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(3){
   top: 500px;
   left: 300px;
 }
 
-.cuadrado4{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(4){
   top: 462px;
   left: 300px;
 }
 
-.cuadrado5{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(5){
   top: 424px;
   left: 300px;
 }
 
-.cuadrado6{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(6){
   top: 386px;
   left: 300px;
 }
 
-.cuadrado7{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(7){
   top: 348px;
   left: 262px;
 }
 
-.cuadrado8{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(8){
   top: 348px;
   left: 224px;
 }
 
-.cuadrado9{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(9){
   top: 348px;
   left: 186px;
 }
 
-.cuadrado10{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(10){
   top: 348px;
   left: 148px;
 }
 
-.cuadrado11{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(11){
   top: 348px;
   left: 110px;
 }
 
-.cuadrado12{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(12){
   top: 348px;
   left: 72px;
 }
 
-.cuadrado13{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(13){
   top: 310px;
   left: 72px;
 }
 
-.cuadrado14{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(14){
   top: 272px;
   left: 72px;
 }
 
-.cuadrado15{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(15){
   top: 272px;
   left: 110px;
 }
 
-.cuadrado16{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(16){
   top: 272px;
   left: 148px;
 }
 
-.cuadrado17{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(17){
   top: 272px;
   left: 186px;
 }
 
-.cuadrado18{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(18){
   top: 272px;
   left: 224px;
 }
 
-.cuadrado19{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(19){
   top: 272px;
   left: 262px;
 }
 
-.cuadrado20{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(20){
   top: 234px;
   left: 300px;
 }
 
-.cuadrado21{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(21){
   top: 196px;
   left: 300px;
 }
 
-.cuadrado22{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(22){
   top: 158px;
   left: 300px;
 }
 
-.cuadrado23{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(23){
   top: 120px;
   left: 300px;
 }
 
-.cuadrado24{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(24){
   top: 82px;
   left: 300px;
 }
 
-.cuadrado25{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(25){
   top: 44px;
   left: 300px;
 }
 
-.cuadrado26{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(26){
   top: 44px;
   left: 338px;
 }
 
-.cuadrado27{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(27){
   top: 44px;
   left: 376px;
 }
 
-.cuadrado28{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(28){
   top: 82px;
   left: 376px;
 }
 
-.cuadrado29{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(29){
   top: 120px;
   left: 376px;
 }
 
-.cuadrado30{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(30){
   top: 158px;
   left: 376px;
 }
 
-.cuadrado31{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(31){
   top: 196px;
   left: 376px;
 }
 
-.cuadrado32{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(32){
   top: 234px;
   left: 376px;
 }
 
-.cuadrado33{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(33){
   top: 272px;
   left: 414px;
 }
 
-.cuadrado34{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(34){
   top: 272px;
   left: 452px;
 }
 
-.cuadrado35{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(35){
   top: 272px;
   left: 490px;
 }
 
-.cuadrado36{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(36){
   top: 272px;
   left: 528px;
 }
 
-.cuadrado37{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(37){
   top: 272px;
   left: 566px;
 }
 
-.cuadrado38{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(38){
   top: 272px;
   left: 604px;
 }
 
-.cuadrado39{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(39){
   top: 310px;
   left: 604px;
 }
 
-.cuadrado40{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(40){
   top: 348px;
   left: 604px;
 }
 
-.cuadrado41{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(41){
   top: 348px;
   left: 566px;
 }
 
-.cuadrado42{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(42){
   top: 348px;
   left: 528px;
 }
 
-.cuadrado43{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(43){
   top: 348px;
   left: 490px;
 }
 
-.cuadrado44{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(44){
   top: 348px;
   left: 452px;
 }
 
-.cuadrado45{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(45){
   top: 348px;
   left: 414px;
 }
 
-.cuadrado46{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(46){
   top: 386px;
   left: 376px;
 }
 
-.cuadrado47{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(47){
   top: 424px;
   left: 376px;
 }
 
-.cuadrado48{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(48){
   top: 462px;
   left: 376px;
 }
 
-.cuadrado49{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(49){
   top: 500px;
   left: 376px;
 }
 
-.cuadrado50{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(50){
   top: 538px;
   left: 376px;
 }
 
-.cuadrado51{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(51){
   top: 576px;
   left: 376px;
 }
 
-.cuadrado52{
-  width: 40px;
-  height: 40px;
-  background: white;
-  border: 3px black solid;
-  position: absolute;
+.tablero span:nth-child(52){
   top: 576px;
   left: 338px;
 }
