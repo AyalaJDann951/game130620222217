@@ -277,3 +277,47 @@ body{
   top: 576px;
   left: 337px;
 }
+
+.estrella{
+  margin: 5px 0;
+  position: relative;
+  display: block;
+  color: blue;
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid blue;
+  border-left: 10px solid transparent;
+  transform: rotate(35deg);
+  top: 7px;
+  left: 7px;
+}
+
+.estrella:before{
+  border-bottom: 8px solid blue;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -5px;
+  left: -7px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+
+.estrella:after{
+  position: absolute;
+  display: block;
+  color: blue;
+  top: 1px;
+  left: -11px;
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid blue;
+  border-left: 10px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
